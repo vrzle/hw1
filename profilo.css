@@ -1,0 +1,195 @@
+/* Aggiungi qui gli stili specifici per il tuo file CSS, escludendo lo stile per il menu */
+
+/* Stili generali */
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Alkatra', sans-serif;
+    color: #333333;
+  }
+  
+  p {
+    color: #666666;
+  }
+  
+  /* Header */
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: white;
+}
+
+  header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: 'Alkatra', cursive;
+  }
+  #logo{
+    margin:15px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  #logo strong{
+    color:rgb(29, 196, 202);
+    text-transform: uppercase;
+  }
+  
+  #link a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fffefe;
+    font-family: 'Alkantara', cursive;
+    font-size: 1.2em;
+    border-radius: 100px;
+    padding: 5px 5px;
+    cursor: pointer;
+    color: white;
+  }
+  #logout,#user,#login{
+    border-radius: 100px;
+    border: 2px solid rgba(255, 255, 242,0.6);
+    padding: 5px 5px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  #link a:hover {
+    background-color: white;
+    color:rgb(29, 196, 202) ;
+  }
+  
+  #link img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+  }
+  
+  #menu {
+    display: none;
+    margin-right: 15px;
+
+  }
+  
+  #menu div {
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    margin: 5px 0;
+  }
+  
+  #menu_ext{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    margin-top: 5px;
+    width: 50%;
+    width: 20%;
+    margin-right: 15px;
+  }
+  .hidden {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    #link {
+      display: none;
+    }
+  
+    #menu {
+      display: block;
+      cursor: pointer;
+    }
+  
+    #menu_ext {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+  
+    #menu_ext a {
+      display: block;
+      text-decoration: none;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+  }
+  
+  footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 75px 0px;
+    height: 100px;
+    line-height: 2;
+    font-weight: 200;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    letter-spacing: 2px;
+  }
+  
+  
+  @media (max-width:500px){
+    footer{
+        height: 100px;
+        font-size:10px;
+        padding: 25px 0px;
+    }
+  }
+  /* Main Content */
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+
+  img{
+    width: 20%;
+}
+
+  section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  .preferiti-icon {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+
+  section1 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  section1{
+    display: flex;
+    height: 300px;
+    margin: 50px 0;
+  }

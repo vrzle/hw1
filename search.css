@@ -1,0 +1,276 @@
+
+body{
+    background-color:rgba(160, 149, 119, 0.3);
+    margin:0;
+  }
+
+
+
+
+
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  li {
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    border-block: 2px solid white;
+    margin: 10px;
+    border-radius: 5px;
+    position:relative;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  li img {
+width: 200px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  a {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+  }
+ #film_title, #cerca{
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius: 30px;
+    padding: 7px 20px;
+    width: 50%;
+    border: 2px solid rgb(29, 196, 202);
+    outline: 0;
+    display: inline;
+    color: #fff;
+    background:transparent;
+}  
+
+.content{
+    font-size: 20px;
+    color: white;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    
+}
+.sbox{
+background: #222;
+    text-align: center;
+    padding: 5em;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+
+.content h1{
+    font-size: smaller;
+}
+
+
+#ris{
+    display: flex;
+    flex-direction: column;
+    padding: 8vw;
+}
+
+
+.album {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid transparent;
+  font-size: 16px;
+  border-radius: 30px;
+  width: 30%;
+  margin: 5px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+}
+
+.album a{
+  margin: 20px 0;
+  color:rgb(29, 196, 202);
+}
+
+.album a:hover{
+  color: rgb(9, 59, 61);
+  }
+
+  
+
+
+
+  nav div a img{
+    max-width: 15px;
+    max-height: 15px;
+    border-radius: 100px;
+  }
+  
+  .container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header img{
+    max-width: 15%;
+    max-height: 15%;
+    border-radius: 100px;
+  }
+  
+  #menu_ext{
+    max-width: 90%;
+    height: 100%;
+    margin-left: 45%;
+  }
+  
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: white;
+}
+
+  header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: 'Alkatra', cursive;
+  }
+  #logo{
+    margin:15px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  #logo strong{
+    color:rgb(29, 196, 202);
+    text-transform: uppercase;
+  }
+  
+  #link {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 15px;
+  }
+  
+  #link a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  #link img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+  }
+  
+  #menu {
+    display: none;
+    margin-right: 15px;
+
+  }
+  
+  #menu div {
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    margin: 5px 0;
+  }
+  
+  #menu_ext{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    margin-top: 5px;
+    width: 50%;
+    width: 20%;
+    margin-right: 15px;
+  }
+  .hidden {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    #link {
+      display: none;
+    }
+  
+    #menu {
+      display: block;
+      cursor: pointer;
+    }
+  
+    #menu_ext {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+  
+    #menu_ext a {
+      display: block;
+      text-decoration: none;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+  }
+  
+  footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 75px 0px;
+    height: 100px;
+    line-height: 2;
+    font-weight: 200;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    letter-spacing: 2px;
+    width: 100%;
+  }
+  
+  
+  @media (max-width:500px){
+    footer{
+        height: 100px;
+        font-size:10px;
+        padding: 25px 0px;
+    }
+  }
+
+  

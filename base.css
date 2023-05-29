@@ -1,0 +1,360 @@
+
+.film-image {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+h3 {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+    margin: 80px 0px 50px;
+}
+
+/* Stile per l'icona dei preferiti */
+.preferiti-icon {
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+
+#top{
+  display: flex;
+  flex-direction: column;
+}
+
+
+body{
+    margin: 0;
+    background-color: rgb(241, 241, 241);
+}
+
+a{
+    cursor: pointer;
+}
+
+
+
+header{
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  font-size: 16px;
+  height: 600px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(a.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+
+header h1{
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  width: 80%;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5em;
+  color: white;
+  line-height: 1.5;
+}
+
+@media (max-width:500px){
+  header{
+      height: 350px;
+  }
+  body{
+      font-size: 14;
+  }
+}
+ nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index:1;
+}
+
+#logo{
+  margin:15px;
+  font-size: 20px;
+  font-family: 'Alkatra', cursive;
+  letter-spacing: 1.5px;
+  color: white;
+  text-decoration: none;
+}
+
+#logo strong{
+  color:rgb(29, 196, 202);
+  text-transform: uppercase;
+}
+
+#link a{
+  font-family: 'Alkantara', cursive;
+  font-size: 1.2em;
+  border-radius: 100px;
+  padding: 5px 5px;
+  cursor: pointer;
+  color: white;
+}
+#logout,#user,#login{
+  border-radius: 100px;
+  border: 2px solid rgba(255, 255, 242,0.6);
+  padding: 5px 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+
+
+
+
+
+
+@media (max-width: 500px){
+  header h1{
+      font-size: 1em;
+      line-height: 1;
+  }
+
+  header h1 strong{
+      font-size: 2.6em;
+  }
+  a.button {
+      height:10%;
+      font-size: 0.7em;
+  }
+}
+
+.button {
+  cursor: pointer;
+  padding: 10px 20px;
+  font-family: 'Alkatra', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(29, 196, 202);
+  border: 2px solid rgb(29, 196, 202) ;
+  border-radius: 5px;
+  width: 80px;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+
+
+
+footer{
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 75px 0px;
+  height: 100px;
+  line-height: 2;
+  font-weight: 200;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  letter-spacing: 2px;
+}
+
+
+@media (max-width:500px){
+  footer{
+      height: 100px;
+      font-size:10px;
+      padding: 25px 0px;
+  }
+}
+
+
+nav div a img{
+  max-width: 15px;
+  max-height: 15px;
+  border-radius: 100px;
+}
+
+
+header img{
+  max-width: 15%;
+  max-height: 15%;
+  border-radius: 100px;
+}
+
+#menu {
+  display: none;
+  margin-right: 15px;
+
+}
+
+#menu div {
+  width: 30px;
+  height: 3px;
+  background-color: #000;
+  margin: 5px 0;
+}
+
+#menu_ext{
+  display: none;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  margin-top: 5px;
+  width: 50%;
+  width: 20%;
+  margin-right: 15px;
+}
+.hidden {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #link {
+    display: none;
+  }
+
+  #menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  #menu_ext {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+  }
+
+  #menu_ext a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+}
+
+section strong{
+  color:rgb(29, 196, 202);
+}
+
+section{
+  font-size: smaller;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section #logo{
+margin:15px;
+font-size: 60px;
+font-family: 'Alkatra', cursive;
+letter-spacing: 1.5px;
+color: white;
+text-decoration: none;
+}
+
+.headermenu{
+  height: 700px;
+}
+
+#b{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#acc{
+  color: white;
+  border: none;
+  background-color:rgb(29, 196, 202) ;
+  margin: 0px 30px 0px 0px;
+}
+
+#reg:hover{
+  background-color:rgb(29, 196, 202);
+  color:white;
+}
+
+#login:hover, #acc:hover, #link a:hover {
+  background-color: white;
+  color:rgb(29, 196, 202) ;
+}
+
+/* Stile generale per la sezione dei film */
+section2 {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  position: relative; 
+  margin-left: 70px;
+}
+
+/* Stile per ogni film */
+section2 > * {
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+/* Stile per l'immagine del film */
+.film-image {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Stile per le freccette laterali */
+.scroll-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-200%);
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+/* Stile al passaggio del mouse sulle freccette laterali */
+.scroll-arrow:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Stile per la freccetta sinistra */
+.scroll-arrow.left {
+  left: 10px;
+}
+
+/* Stile per la freccetta destra */
+.scroll-arrow.right {
+  right: 10px;
+}
+
+#most{
+  padding: 15px;
+  background-color: white;
+  border-radius: 15px;
+  margin: 20px;
+}
